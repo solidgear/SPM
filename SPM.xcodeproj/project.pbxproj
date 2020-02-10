@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -14,13 +14,12 @@
 		BCD3952123EEE41600D0C3D7 /* MainViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCD3952023EEE41600D0C3D7 /* MainViewModel.swift */; };
 		BCD3952323EEE42100D0C3D7 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCD3952223EEE42100D0C3D7 /* MainViewController.swift */; };
 		BCD3952523EEE42D00D0C3D7 /* MainView.xib in Resources */ = {isa = PBXBuildFile; fileRef = BCD3952423EEE42D00D0C3D7 /* MainView.xib */; };
-		BCD3952723EEE43A00D0C3D7 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCD3952623EEE43A00D0C3D7 /* LoginViewController.swift */; };
-		BCD3952923EEE44400D0C3D7 /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCD3952823EEE44400D0C3D7 /* LoginViewModel.swift */; };
-		BCD3952B23EEE45500D0C3D7 /* LoginView.xib in Resources */ = {isa = PBXBuildFile; fileRef = BCD3952A23EEE45500D0C3D7 /* LoginView.xib */; };
 		BCD3952E23EEE51600D0C3D7 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCD3952D23EEE51600D0C3D7 /* Item.swift */; };
 		BCD3953123EEE5CD00D0C3D7 /* ItemRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCD3953023EEE5CD00D0C3D7 /* ItemRepository.swift */; };
 		BCD3953323EF39C600D0C3D7 /* ItemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCD3953223EF39C600D0C3D7 /* ItemCell.swift */; };
 		BCD3953523EF39D100D0C3D7 /* ItemCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BCD3953423EF39D100D0C3D7 /* ItemCell.xib */; };
+		BCD3953E23F1E08000D0C3D7 /* LoginUI in Frameworks */ = {isa = PBXBuildFile; productRef = BCD3953D23F1E08000D0C3D7 /* LoginUI */; };
+		BCD3954623F1EE4F00D0C3D7 /* LoginView.xib in Resources */ = {isa = PBXBuildFile; fileRef = BCD3954523F1EE4F00D0C3D7 /* LoginView.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,13 +32,12 @@
 		BCD3952023EEE41600D0C3D7 /* MainViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewModel.swift; sourceTree = "<group>"; };
 		BCD3952223EEE42100D0C3D7 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		BCD3952423EEE42D00D0C3D7 /* MainView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainView.xib; sourceTree = "<group>"; };
-		BCD3952623EEE43A00D0C3D7 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
-		BCD3952823EEE44400D0C3D7 /* LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
-		BCD3952A23EEE45500D0C3D7 /* LoginView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LoginView.xib; sourceTree = "<group>"; };
 		BCD3952D23EEE51600D0C3D7 /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
 		BCD3953023EEE5CD00D0C3D7 /* ItemRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemRepository.swift; sourceTree = "<group>"; };
 		BCD3953223EF39C600D0C3D7 /* ItemCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemCell.swift; sourceTree = "<group>"; };
 		BCD3953423EF39D100D0C3D7 /* ItemCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ItemCell.xib; sourceTree = "<group>"; };
+		BCD3953923F1DDB800D0C3D7 /* LoginUI */ = {isa = PBXFileReference; lastKnownFileType = folder; name = LoginUI; path = ../LoginUI; sourceTree = "<group>"; };
+		BCD3954523F1EE4F00D0C3D7 /* LoginView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LoginView.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +45,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BCD3953E23F1E08000D0C3D7 /* LoginUI in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -56,8 +55,10 @@
 		BCD394F823EEE1F900D0C3D7 = {
 			isa = PBXGroup;
 			children = (
+				BCD3953923F1DDB800D0C3D7 /* LoginUI */,
 				BCD3950323EEE1F900D0C3D7 /* SPM */,
 				BCD3950223EEE1F900D0C3D7 /* Products */,
+				BCD3953A23F1DE8B00D0C3D7 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -116,9 +117,7 @@
 		BCD3951F23EEE38A00D0C3D7 /* Login */ = {
 			isa = PBXGroup;
 			children = (
-				BCD3952623EEE43A00D0C3D7 /* LoginViewController.swift */,
-				BCD3952A23EEE45500D0C3D7 /* LoginView.xib */,
-				BCD3952823EEE44400D0C3D7 /* LoginViewModel.swift */,
+				BCD3954523F1EE4F00D0C3D7 /* LoginView.xib */,
 			);
 			path = Login;
 			sourceTree = "<group>";
@@ -139,6 +138,13 @@
 			path = Repository;
 			sourceTree = "<group>";
 		};
+		BCD3953A23F1DE8B00D0C3D7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -156,6 +162,7 @@
 			);
 			name = SPM;
 			packageProductDependencies = (
+				BCD3953D23F1E08000D0C3D7 /* LoginUI */,
 			);
 			productName = SPM;
 			productReference = BCD3950123EEE1F900D0C3D7 /* SPM.app */;
@@ -203,8 +210,8 @@
 			files = (
 				BCD3952523EEE42D00D0C3D7 /* MainView.xib in Resources */,
 				BCD3951123EEE1FB00D0C3D7 /* LaunchScreen.storyboard in Resources */,
+				BCD3954623F1EE4F00D0C3D7 /* LoginView.xib in Resources */,
 				BCD3953523EF39D100D0C3D7 /* ItemCell.xib in Resources */,
-				BCD3952B23EEE45500D0C3D7 /* LoginView.xib in Resources */,
 				BCD3950E23EEE1FB00D0C3D7 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -216,13 +223,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BCD3952723EEE43A00D0C3D7 /* LoginViewController.swift in Sources */,
 				BCD3952E23EEE51600D0C3D7 /* Item.swift in Sources */,
 				BCD3953323EF39C600D0C3D7 /* ItemCell.swift in Sources */,
 				BCD3952123EEE41600D0C3D7 /* MainViewModel.swift in Sources */,
 				BCD3951B23EEE24900D0C3D7 /* InterfaceLauncher.swift in Sources */,
 				BCD3953123EEE5CD00D0C3D7 /* ItemRepository.swift in Sources */,
-				BCD3952923EEE44400D0C3D7 /* LoginViewModel.swift in Sources */,
 				BCD3952323EEE42100D0C3D7 /* MainViewController.swift in Sources */,
 				BCD3950523EEE1F900D0C3D7 /* AppDelegate.swift in Sources */,
 			);
@@ -414,6 +419,13 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		BCD3953D23F1E08000D0C3D7 /* LoginUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = LoginUI;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = BCD394F923EEE1F900D0C3D7 /* Project object */;
 }
