@@ -20,7 +20,7 @@
 		BCD3953123EEE5CD00D0C3D7 /* ItemRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCD3953023EEE5CD00D0C3D7 /* ItemRepository.swift */; };
 		BCD3953323EF39C600D0C3D7 /* ItemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCD3953223EF39C600D0C3D7 /* ItemCell.swift */; };
 		BCD3953523EF39D100D0C3D7 /* ItemCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BCD3953423EF39D100D0C3D7 /* ItemCell.xib */; };
-		BCD3954A23F1F36000D0C3D7 /* ItemStuff in Frameworks */ = {isa = PBXBuildFile; productRef = BCD3954923F1F36000D0C3D7 /* ItemStuff */; };
+		BCD3954D23F285F300D0C3D7 /* ItemStuff in Frameworks */ = {isa = PBXBuildFile; productRef = BCD3954C23F285F300D0C3D7 /* ItemStuff */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -39,7 +39,6 @@
 		BCD3953023EEE5CD00D0C3D7 /* ItemRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemRepository.swift; sourceTree = "<group>"; };
 		BCD3953223EF39C600D0C3D7 /* ItemCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemCell.swift; sourceTree = "<group>"; };
 		BCD3953423EF39D100D0C3D7 /* ItemCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ItemCell.xib; sourceTree = "<group>"; };
-		BCD3954723F1F30A00D0C3D7 /* ItemStuff */ = {isa = PBXFileReference; lastKnownFileType = folder; name = ItemStuff; path = ../ItemStuff; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,7 +46,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BCD3954A23F1F36000D0C3D7 /* ItemStuff in Frameworks */,
+				BCD3954D23F285F300D0C3D7 /* ItemStuff in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -57,7 +56,6 @@
 		BCD394F823EEE1F900D0C3D7 = {
 			isa = PBXGroup;
 			children = (
-				BCD3954723F1F30A00D0C3D7 /* ItemStuff */,
 				BCD3950323EEE1F900D0C3D7 /* SPM */,
 				BCD3950223EEE1F900D0C3D7 /* Products */,
 				BCD3954823F1F36000D0C3D7 /* Frameworks */,
@@ -165,7 +163,7 @@
 			);
 			name = SPM;
 			packageProductDependencies = (
-				BCD3954923F1F36000D0C3D7 /* ItemStuff */,
+				BCD3954C23F285F300D0C3D7 /* ItemStuff */,
 			);
 			productName = SPM;
 			productReference = BCD3950123EEE1F900D0C3D7 /* SPM.app */;
@@ -196,6 +194,7 @@
 			);
 			mainGroup = BCD394F823EEE1F900D0C3D7;
 			packageReferences = (
+				BCD3954B23F285F300D0C3D7 /* XCRemoteSwiftPackageReference "ItemStuff" */,
 			);
 			productRefGroup = BCD3950223EEE1F900D0C3D7 /* Products */;
 			projectDirPath = "";
@@ -424,9 +423,21 @@
 		};
 /* End XCConfigurationList section */
 
+/* Begin XCRemoteSwiftPackageReference section */
+		BCD3954B23F285F300D0C3D7 /* XCRemoteSwiftPackageReference "ItemStuff" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/ggdiez/ItemStuff.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
 /* Begin XCSwiftPackageProductDependency section */
-		BCD3954923F1F36000D0C3D7 /* ItemStuff */ = {
+		BCD3954C23F285F300D0C3D7 /* ItemStuff */ = {
 			isa = XCSwiftPackageProductDependency;
+			package = BCD3954B23F285F300D0C3D7 /* XCRemoteSwiftPackageReference "ItemStuff" */;
 			productName = ItemStuff;
 		};
 /* End XCSwiftPackageProductDependency section */

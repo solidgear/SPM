@@ -1,0 +1,16 @@
+{
+  "object": {
+    "pins": [
+      {
+        "package": "ItemStuff",
+        "repositoryURL": "https://github.com/ggdiez/ItemStuff.git",
+        "state": {
+          "branch": null,
+          "revision": "5203d29e761868a45f4de44d04ffb46986044a88",
+          "version": "1.0.0"
+        }
+      }
+    ]
+  },
+  "version": 1
+}
